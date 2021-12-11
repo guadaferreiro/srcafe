@@ -4,76 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
 
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <nav>    
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="menu.html">Menú</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navegation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logoiconos/logocafe.png" width="80" height="60" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
 
     <main>
-        <div>
-            <p class="p-contacto">Estamos dispuestos a resolver sus dudas y atender sus sugerencias. Contacte con nosotros a través de nuestro formulario o nuestras redes sociales.</p>
-        </div>
+        <div class="container">
 
-        <div class="grid-contacto">
-            <div class="contacto1 form">
-                <form action="">    
-                    <h2 class="tituloH2">Formulario de contacto</h2>
-                        <label for="Nombre">Nombre</label> <br>
-                            <input type="text" id="Nombre"> <br>
-                        <label for="Apellido">Apellido</label> <br>
-                            <input type="text" id="Apellido"> <br>
-                        <label for="Email">Email de contacto</label> <br>
-                            <input type="email" id="Email"> <br>
-                        <label>Mensaje</label> <br>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui su consulta"></textarea> <br>
-                        <label id="checkLebel">Me gustaría recibir nuevas promociones</label>
-                            <input id="checkBox" type="checkbox"><br>
-                            <input  type="submit" value="Enviar formulario">
-                </form>
+            <div class="m-5">
+                <p class="text-center fw-light lh-base fs-5 style-parrafos">Estamos dispuestos a resolver sus dudas y atender sus sugerencias. Contacte con nosotros a través de nuestro formulario o nuestras redes sociales.</p>
             </div>
 
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <h2>Formulario de contacto</h2>
+                    <form class="form row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Apellido</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form4Example3">Mensaje</label>                            
+                            <textarea class="form-control" id="form4Example3" rows="4" placeholder="Escribe aquí tu mensaje"></textarea>
+                        </div>
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2 bg-danger bg-opacity-10 border-white" type="checkbox" value="" id="form4Example4" checked />
+                            <label class="form-check-label" for="form4Example4"> Enviarme una copia del mensaje por email</label>
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="button" class="button btn btn-block btn-primary btn-light">Enviar Formulario</button>
+                        </div>
+                    </form>
+                </div>
 
-            <div class="contacto2">
-                <h2>Estemos en contacto</h2>
-
-                <p><img class="icono" src="../img/logoiconos/location.png" alt="">Saling 17</p>
-                
-                <br>
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18955.93202375757!2d10.031904697976016!3d53.566844208600685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18eb10dd7f0bb%3A0x5263df27bd5e7d0!2sEilbek%2C%20Hamburgo!5e0!3m2!1ses-419!2sde!4v1636300683377!5m2!1ses-419!2sde" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
-                <p><img class="icono" src="../img/logoiconos/whatsapp.png" alt=""> +54351123456</p>
-                <p><img class="icono" src="../img/logoiconos/email.png " alt=""> tuemail@correo.com</p>
-                
-                <br>
-                <a href=""><img class="icono"  src="../img/logoiconos/instagram.png" alt=""></a>
-                <a href=""><img class="icono" src="../img/logoiconos/facebook.png" alt=""></a>
+                <div class="col">
+                    <div>
+                        <h2>Estemos en contacto</h2>
+                        <div class="card m-3" >
+                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18955.93202375757!2d10.031904697976016!3d53.566844208600685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18eb10dd7f0bb%3A0x5263df27bd5e7d0!2sEilbek%2C%20Hamburgo!5e0!3m2!1ses-419!2sde!4v1636300683377!5m2!1ses-419!2sde" width="500" height="350" style="border-radius: 1px;" allowfullscreen="" loading="lazy"></iframe>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="style-parrafos text-center">Direccion 17</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="style-parrafos text-center"><img class="icono" src="../img/logoiconos/email.png " alt="">tuemail@correo.com</p>
+                                        <p class="style-parrafos text-center"><img class="icono" src="../img/logoiconos/whatsapp.png" alt="">+54351123456</p> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-    
     </main>
 
-    <footer>
-        <p><img src="" alt="">Derechos reservados</p>  
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container p-4 pb-0">
+            <div class="mb-4">
+    
+                <img class="icono" src="../img/logoiconos/facebook.png" alt="">
+    
+                <img class="icono" src="../img/logoiconos/instagram.png" alt="">
+    
+                <img class="icono" src="../img/logoiconos/whapp.png" alt="">
+            </div>
+        </div>
+    
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>  © 2020 Copyright: Maria Guadalupe Ferreiro</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
