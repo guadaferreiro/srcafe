@@ -1,66 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/estilos.css">
+        
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
 
     <title>Menu</title>
 </head>
 <body>
     <header>
-        <nav>    
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="menu.html">Menú</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navegation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logoiconos/logocafe.png" width="80" height="60" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
 
     <main>
-        <div class="grid-menu">
-            <div class="menu1">
-                <button class="boton">Ver Menú</button>
+        <div class="container">
+                <div class="row d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary align-self-center my-3 btn-light fw-bold fs-2 shadow" type="button">NUESTRO MENÚ</button>
+                </div>
+        </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <p class="style-parrafos fw-light lh-base fs-5 text-center my-5 mx-3">Deserunt perspiciatis laborum recusandae quas et at maxime, minima consequatur ipsum provident quos quasi eaque deleniti nemo, soluta nisi facilis unde aliquid ducimus? Ea mollitia at veniam culpa omnis aut. Inventore nisi quasi adipisci accusantium consequuntur tempore deserunt beatae impedit rerum odio, quia laborum, maiores alias debitis mollitia cumque ut reprehenderit iusto quo tempora molestiae qui tenetur cum. Perferendis, accusamus distinctio. Illum quae velit omnis voluptate earum voluptatibus animi iusto tempore beatae debitis ab, similique rem, veritatis dolor eum impedit, voluptates porro nesciunt dicta assumenda blanditiis. Iusto vel excepturi, placeat optio quam, commodi dolore deserunt dolorem, eligendi eos eaque aspernatur.</p>
+                </div>
+
+                <div class="col-sm-12 col-lg-6 my-5">
+                    <img class="img-fluid text-center" src="../img/cafe (9).jpg" alt="">
+                </div>
             </div>
 
-            <div class="menu2">
-                <img class="imgMenu" src="../img/cafe (9).jpg" alt="">
+        <!--  
+
+
+
             </div>
 
             <div class="menu3">
             <h2> Lorem ipsum dolor sit amet.</h2>
-            <p class="pMenu">Deserunt perspiciatis laborum recusandae quas et at maxime, minima consequatur ipsum provident quos quasi eaque deleniti nemo, soluta nisi facilis unde aliquid ducimus? Ea mollitia at veniam culpa omnis aut. Inventore nisi quasi adipisci accusantium consequuntur tempore deserunt beatae impedit rerum odio, quia laborum, maiores alias debitis mollitia cumque ut reprehenderit iusto quo tempora molestiae qui tenetur cum. Perferendis, accusamus distinctio. Illum quae velit omnis voluptate earum voluptatibus animi iusto tempore beatae debitis ab, similique rem, veritatis dolor eum impedit, voluptates porro nesciunt dicta assumenda blanditiis. Iusto vel excepturi, placeat optio quam, commodi dolore deserunt dolorem, eligendi eos eaque aspernatur.</p>
+
             </div>
-        </div>        
+        </div>     
+        -->    
 
     </main>
 
 
-    <footer class="piePagina">
-        <div class="grupoFooter">
-            <div>
-                <p><img class="icono" src="../img/logoiconos/wapp.png" alt=""> +54351123456</p>
-            </div>
+    <footer class="bg-dark text-center text-white">
 
-            <div>
-                <p><img class="icono2" src="../img/logoiconos/gps.png" alt="">Saling 17</p> 
-            </div>
-
-            <div>
-                <a href="#"><img class="icono"  src="../img/logoiconos/insta.png" alt=""></a>
-
-                <a href="#"><img class="icono" src="../img/logoiconos/face.png" alt=""></a>
+        <div class="container p-4 pb-0">
+            <div class="mb-4">
+    
+                <img class="icono" src="../img/logoiconos/facebook.png" alt="">
+    
+                <img class="icono" src="../img/logoiconos/instagram.png" alt="">
+    
+                <img class="icono" src="../img/logoiconos/whapp.png" alt="">
             </div>
         </div>
-    </footer>
     
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>  © 2020 Copyright: Maria Guadalupe Ferreiro</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
