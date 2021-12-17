@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+  text-align: center;
+  color: #ddbea9;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.style-parrafos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 112%;
+}
+
+.card-border {
+  border: solid 2px #fdfcfc;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.imgNosotros {
+  height: 2250%;
+  width: 2187%;
+  border-radius: 50%;
+}
+
+.button {
+  color: #ddbea9;
+  font-size: 15px;
+  width: 90%;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.m-index {
+  margin-top: 20%;
+}
+
+#backgroundHeader {
+  background-image: url("../img/pag/index.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+}
+
+#mascara {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#logo {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navegation {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  background-size: cover;
+  padding: 10px;
+}
+
+#navegation a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #ddbea9;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+#navegation a:hover {
+  color: #f39f67;
+}
+
+.form {
+  font-family: 'Roboto', sans-serif;
+}
+
+.form input {
+  color: #ddbea9;
+}
+
+.form textarea:focus, .form input:focus, .form input[type]:focus {
+  border-color: #ddbea9;
+  -webkit-box-shadow: 0 1px 1px rgba(255, 241, 232, 0.5) inset, 0 0 8px rgba(255, 238, 227, 0.6);
+          box-shadow: 0 1px 1px rgba(255, 241, 232, 0.5) inset, 0 0 8px rgba(255, 238, 227, 0.6);
+  outline: 0 none;
+}
+
+.form label {
+  color: #ddbea9;
+}
+
+.check {
+  background-color: #ddbea9;
+}
+
+.icono {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.icono2 {
+  width: 15px;
+  margin-right: 8px;
+}
+/*# sourceMappingURL=main.css.map */

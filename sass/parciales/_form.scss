@@ -1,0 +1,23 @@
+@import "./variables";
+
+.form {
+    font-family: 'Roboto', sans-serif;
+
+    & input {
+    color: $color-general;
+    }
+
+    & textarea:focus, input:focus, input[type]:focus {
+        border-color: $color-general;
+        box-shadow: 0 1px 1px rgba(255, 241, 232, 0.5)inset, 0 0 8px rgba(255, 238, 227, 0.6);
+        outline: 0 none;
+    }
+
+    & label{
+        color: $color-general;
+    }
+}
+
+.check {
+    background-color: $color-general;
+}
