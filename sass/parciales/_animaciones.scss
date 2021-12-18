@@ -1,0 +1,14 @@
+@import "./variables";
+
+.animate__animated{
+    .animate__pulse{
+    animation-duration: 10s;
+    animation-name: pulse;
+    }
+
+    .animate__fadeInDown{
+    animation-duration: 10s;
+    animation-name: fadeInDown;
+    }
+}
+

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -71,13 +72,6 @@ h2 {
   font-family: "Bebas Neue", cursive;
 }
 
-.animate__pulse {
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
-  -webkit-animation-name: pulse;
-          animation-name: pulse;
-}
-
 #backgroundHeader {
   background-image: url("../img/pag/index.jpg");
   background-position: center;
@@ -98,13 +92,6 @@ h2 {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.animate__fadeInDown {
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-name: fadeInDown;
-          animation-name: fadeInDown;
 }
 
 #navegation {
@@ -169,4 +156,18 @@ h2 {
 .icono2 {
   width: 15px;
   margin-right: 8px;
+}
+
+.animate__animated .animate__pulse {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+}
+
+.animate__animated .animate__fadeInDown {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
 }
