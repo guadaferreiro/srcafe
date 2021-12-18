@@ -1,7 +1,7 @@
 @import "./variables";
 
 h1{
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fuente-secundaria;
     font-size: 45px;
     text-align: center;
     color:$color-general ;
@@ -16,11 +16,11 @@ h2{
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fuente-secundaria;
 }
 
 .style-parrafos {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-principal;
     font-size: 112%;
 }
 
@@ -37,21 +37,30 @@ h2{
 
 
 .imgNosotros {
-    height: 2250%;
-    width: 2187%;
+    height: 350px;
+    width: 360px;
     border-radius: 50%;
 }
 
 
 .button {
     color: $color-general;
-    font-size: 15px;
     width: 90%;
     height: 40px;
     cursor: pointer;
     margin-bottom: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: $fuente-secundaria;
 }
 
-.m-index {
-    margin-top: 20%;
+.button-menu {
+    background-color: rgb(255, 238, 218);
+    color: $color-general;
+    width: 90%;
+    height: 60px;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    font-family: $fuente-secundaria;
 }

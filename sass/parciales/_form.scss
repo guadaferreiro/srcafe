@@ -1,7 +1,7 @@
 @import "./variables";
 
 .form {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-principal;
 
     & input {
     color: $color-general;

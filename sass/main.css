@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 45px;
   text-align: center;
   color: #ddbea9;
@@ -18,11 +22,11 @@ h2 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .style-parrafos {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 112%;
 }
 
@@ -40,22 +44,31 @@ h2 {
 }
 
 .imgNosotros {
-  height: 2250%;
-  width: 2187%;
+  height: 350px;
+  width: 360px;
   border-radius: 50%;
 }
 
 .button {
   color: #ddbea9;
-  font-size: 15px;
   width: 90%;
   height: 40px;
   cursor: pointer;
   margin-bottom: 100px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
 }
 
-.m-index {
-  margin-top: 20%;
+.button-menu {
+  background-color: #ffeeda;
+  color: #ddbea9;
+  width: 90%;
+  height: 60px;
+  cursor: pointer;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
 }
 
 #backgroundHeader {
@@ -81,7 +94,7 @@ h2 {
 }
 
 #navegation {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   position: relative;
   top: 0;
   left: 0;
@@ -112,7 +125,7 @@ h2 {
 }
 
 .form {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .form input {
@@ -143,4 +156,3 @@ h2 {
   width: 15px;
   margin-right: 8px;
 }
-/*# sourceMappingURL=main.css.map */
