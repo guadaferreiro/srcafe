@@ -1,9 +1,13 @@
 @import "./variables";
 
+@mixin text {
+    text-align: center;
+}
+
 h1{
+    @include text;
     font-family: $fuente-secundaria;
     font-size: 45px;
-    text-align: center;
     color:$color-general ;
     display:block;
     margin-top: 20px;
@@ -13,10 +17,10 @@ h1{
 
 
 h2{
+    @extend h1;
     font-size: 40px;
-    text-align: center;
     margin-bottom: 20px;
-    font-family: $fuente-secundaria;
+    color: black;
 }
 
 .style-parrafos {
@@ -42,26 +46,21 @@ h2{
     border-radius: 50%;
 }
 
-
 .button {
+    @include text;
     color: $color-general;
     width: 90%;
     height: 40px;
     cursor: pointer;
     margin-bottom: 100px;
     font-size: 20px;
-    text-align: center;
     font-family: $fuente-secundaria;
 }
 
 .button-menu {
+    @extend .button;
     background-color: rgb(255, 238, 218);
-    color: $color-general;
-    width: 90%;
     height: 60px;
-    cursor: pointer;
     font-size: 40px;
-    text-align: center;
-    font-family: $fuente-secundaria;
 }
 
