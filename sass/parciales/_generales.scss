@@ -7,7 +7,7 @@
 h1{
     @include text;
     font-family: $fuente-secundaria;
-    font-size: 45px;
+    font-size: 50px;
     color:$color-general ;
     display:block;
     margin-top: 20px;
@@ -20,7 +20,7 @@ h2{
     @extend h1;
     font-size: 40px;
     margin-bottom: 20px;
-    color: black;
+    color: $color-secundario;
 }
 
 h3 {
@@ -58,7 +58,7 @@ h3 {
 
 .button {
     @include text;
-    background-color: rgb(52, 58 ,64 );
+    background-color: $color-secundario;
     color: $color-general;
     width: 90%;
     height: 40px;
