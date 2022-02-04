@@ -58,6 +58,7 @@ h3 {
 
 .button {
     @include text;
+    background-color: rgb(52, 58 ,64 );
     color: $color-general;
     width: 90%;
     height: 40px;
@@ -69,7 +70,6 @@ h3 {
 
 .button-menu {
     @extend .button;
-    background-color: rgb(52, 58 ,64 );
     height: 60px;
     font-size: 40px;
 }

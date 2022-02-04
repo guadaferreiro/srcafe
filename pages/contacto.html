@@ -82,7 +82,22 @@
                             <label class="form-check-label" for="form4Example4"> Enviarme una copia del mensaje por email</label>
                         </div>
                         <div class="col-lg-12">
-                            <button type="button" class="button btn btn-block btn-primary btn-light">Enviar Formulario</button>
+                            <button type="button" class="button btn btn-primary btn-light" data-bs-toggle="modal" data-bs-target="#myModal"> Enviar Formulario</button>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">¿Esta seguro que quiere enviar este formulario?</h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Enviar</button>
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
