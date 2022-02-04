@@ -23,9 +23,19 @@ h2{
     color: black;
 }
 
+h3 {
+    @extend h2;
+    font-family: $fuente-principal;
+}
+
 .style-parrafos {
     font-family: $fuente-principal;
     font-size: 112%;
+}
+
+.style-parrafos-prod{
+    @extend .style-parrafos;
+    font-size: 130%;
 }
 
 .card-border {
@@ -59,7 +69,7 @@ h2{
 
 .button-menu {
     @extend .button;
-    background-color: rgb(255, 238, 218);
+    background-color: rgb(192, 192, 192);
     height: 60px;
     font-size: 40px;
 }

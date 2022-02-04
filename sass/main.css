@@ -8,26 +8,34 @@
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
   font-family: "Bebas Neue", cursive;
   font-size: 45px;
-  color: #ddbea9;
+  color: #f7f1ee;
   display: block;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-h2 {
+h2, h3 {
   font-size: 40px;
   margin-bottom: 20px;
   color: black;
 }
 
-.style-parrafos {
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.style-parrafos, .style-parrafos-prod {
   font-family: "Roboto", sans-serif;
   font-size: 112%;
+}
+
+.style-parrafos-prod {
+  font-size: 130%;
 }
 
 .card-border {
@@ -51,7 +59,7 @@ h2 {
 
 .button, .button-menu {
   text-align: center;
-  color: #ddbea9;
+  color: #f7f1ee;
   width: 90%;
   height: 40px;
   cursor: pointer;
@@ -61,7 +69,7 @@ h2 {
 }
 
 .button-menu {
-  background-color: #ffeeda;
+  background-color: silver;
   height: 60px;
   font-size: 40px;
 }
@@ -109,7 +117,7 @@ h2 {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  color: #ddbea9;
+  color: #f7f1ee;
   font-size: 20px;
   font-weight: bold;
   padding: 10px 30px;
@@ -124,22 +132,22 @@ h2 {
 }
 
 .form input {
-  color: #ddbea9;
+  color: #f7f1ee;
 }
 
 .form textarea:focus, .form input:focus, .form input[type]:focus {
-  border-color: #ddbea9;
+  border-color: #f7f1ee;
   -webkit-box-shadow: 0 1px 1px rgba(255, 241, 232, 0.5) inset, 0 0 8px rgba(255, 238, 227, 0.6);
           box-shadow: 0 1px 1px rgba(255, 241, 232, 0.5) inset, 0 0 8px rgba(255, 238, 227, 0.6);
   outline: 0 none;
 }
 
 .form label {
-  color: #ddbea9;
+  color: #f7f1ee;
 }
 
 .check {
-  background-color: #ddbea9;
+  background-color: #f7f1ee;
 }
 
 .icono {
